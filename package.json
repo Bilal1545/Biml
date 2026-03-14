@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "fast-xml-parser": "^5.5.5",
+    "follow-redirects": "^1.15.11",
+    "fs-extra": "^11.3.4"
+  },
+  "scripts": {
+    "serve": "node cli.js serve example 8080",
+    "build": "node cli.js build example"
+  }
+}
